@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('./Inter/static/Inter-Light.ttf'),
+  url('./Inter/static/Inter-Bold.ttf');
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -10,12 +16,15 @@ header{
   margin-left: 17.6%;
 }
 
-
+.barra-lateral svg{
+  margin-top: 8px;
+}
 .barra-lateral {
   background-color: orange;
   width: 17.6%;
   height: 100%;
   position: fixed;
+  border-right: 0.06cm solid black;
 }
 
 
@@ -32,4 +41,29 @@ header{
   text-align: center;
   align-items: flex-end;
   margin-left: 17.6%;
+}
+
+.nameapp{
+  color: black;
+  font-family: 'Inter', sans-serif;
+  margin-left: 7px;
+}
+
+.listabarra{
+    list-style: none;
+    padding-left: 10px;
+}
+
+.instapp{
+  display: flex;
+  align-items: end;
+}
+
+.instapp svg{
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.barra-lateral .instapp{
+  margin-top: 15cm;
 }
