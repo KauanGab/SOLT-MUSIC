@@ -1,3 +1,39 @@
-h1{
-color: blueviolet;
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+header{
+  margin-left: 17.6%;
+  background-color: gray;
+  
+}
+.top{
+  margin: 0;
+}
+.trowandawe{
+ margin: 0;
+}
+.barra-lateral {
+  background-color: orange;
+  width: 17.6%;
+  height: 90.6%;
+  position: fixed;
+}
+
+
+.conteudo {
+  flex:auto;
+  margin-left: 17.6%;
+  background-color: blueviolet;
+}
+
+.rodape {
+  background-color: black;
+  color: white;
+  padding: 1.1%;
+  text-align: center;
+  align-items: flex-end;
 }
