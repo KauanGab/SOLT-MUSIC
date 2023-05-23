@@ -18,7 +18,7 @@ header{
   align-items: center;
 }
 .trowandawe svg{
-  margin-left: 5px;
+  margin-left: 8px;
   margin-right: 10px;
   margin-top: 8px;
 
@@ -30,6 +30,11 @@ header{
 .barra-lateral svg{
   margin-top: 8px;
 }
+
+.barra-lateral a:hover{
+  color: gray;
+}
+
 .barra-lateral {
   background-color: white;
   width: 17.6%;
