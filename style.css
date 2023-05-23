@@ -20,11 +20,16 @@ header{
   margin-top: 8px;
 }
 .barra-lateral {
-  background-color: orange;
+  background-color: white;
   width: 17.6%;
   height: 100%;
   position: fixed;
   border-right: 0.06cm solid black;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 
@@ -59,11 +64,19 @@ header{
   align-items: end;
 }
 
-.instapp svg{
+svg{
   margin-left: 5px;
   margin-right: 10px;
 }
 
-.barra-lateral .instapp{
-  margin-top: 15cm;
+a{
+  display: flex;
+  align-items: flex-end;
+  color: black;
+  text-decoration: none;
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
