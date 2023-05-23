@@ -14,7 +14,18 @@ body {
 header{
   background-color: chartreuse;
   margin-left: 17.6%;
+  margin-top: 0;
+  align-items: center;
 }
+.trowandawe svg{
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 8px;
+
+}
+ .perfil{
+  float: right;
+ }
 
 .barra-lateral svg{
   margin-top: 8px;
@@ -64,7 +75,7 @@ header{
   align-items: end;
 }
 
-svg{
+.barra-lateral svg{
   margin-left: 5px;
   margin-right: 10px;
 }
