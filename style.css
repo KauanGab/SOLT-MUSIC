@@ -121,12 +121,26 @@ header{
   left: 61.2%;
   transform: translateX(-50%);
   bottom: 0;
+  
 }
 
-.audioplayer svg{
-  margin-top: 10cm;
-  align-items: center;
 
+#firstsvg{
+  float: left;
+  margin-top: 20px;
+  margin-right: 15px;
+}
+
+#secondsvg{
+  float: right;
+  margin-top: 11.5px;
+}
+
+#thirdsvg{
+  float: right;
+  margin-top: 20px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
  .usersinger {
